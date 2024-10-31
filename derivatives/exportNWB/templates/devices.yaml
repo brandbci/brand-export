@@ -1,0 +1,18 @@
+#####################################
+# Device information:
+#
+# - name:           [required]  # this is how it will be referred to in files
+#   electrode_qty:  [required]  # quantity of electrodes on the device
+#   description:    [required]  # a human-friendly description of the device
+#   Manufacturer:   [required]  # name of the company who manufactured the device
+#####################################
+
+- name:           NeuroPort10x10
+  electrode_qty:  96
+  description:    10x10 96 channel NeuroPort array
+  manufacturer:   Blackrock Neurotech
+
+- name:           NeuroPort8x8
+  electrode_qty:  64
+  description:    8x8 64 channel NeuroPort array
+  manufacturer:   Blackrock Neurotech

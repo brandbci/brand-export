@@ -1,0 +1,47 @@
+metadata:
+  participant_id: t0
+  cortical_implant_date: 2022-05-09
+
+#####################################
+# Implant information:
+#
+# - name:           [required]  # this is how it will be referred to in files
+#   location:       [required]  # anatomical location of the array
+#   position:       [required]  # stereotaxic position of the array
+#   device:         [required]  # name of the device, see devices.yaml for existing options
+#   connector:      [required]  # name of the connector used to connect to the device
+#   serial:         [required]  # serial number of the device
+#   array_map:      [required]  # path to the map file from the manufacturer
+#####################################
+implants:
+  - name:           array 1
+    location:       example location
+    position:       [1, 2, 3]
+    device:         NeuroPort8x8
+    connector:      example connector
+    serial:         1234567890
+    array_map:      test.csv
+
+  - name:           array 2
+    location:       example location
+    position:       [1, 2, 3]
+    device:         NeuroPort8x8
+    connector:      example connector
+    serial:         1234567890
+    array_map:      test.csv
+
+  - name:           array 3
+    location:       example location
+    position:       [1, 2, 3]
+    device:         NeuroPort8x8
+    connector:      example connector
+    serial:         1234567890
+    array_map:      test.csv
+
+  - name:           array 4
+    location:       example location
+    position:       [1, 2, 3]
+    device:         NeuroPort8x8
+    connector:      example connector
+    serial:         1234567890
+    array_map:      test.csv
